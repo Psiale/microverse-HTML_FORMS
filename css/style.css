@@ -1,0 +1,13 @@
+.sign-up{
+    position: absolute;
+    top:0;
+    right: 0;
+    
+ }
+ 
+.form{
+    margin: 0 auto;
+width: 400px;
+    border: 3px inset grey;
+    border-radius: 2px;
+}
