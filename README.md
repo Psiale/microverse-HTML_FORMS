@@ -1,7 +1,7 @@
-# microverse-HTML_FORMS
+# Clone of mint sign up page
 
-* [The purpouse of this webpage](#the-purpouse-of-this webpage)
-* [Built With](#built-with)
+* [The purpouse of this webpage] (#the-purpouse-of-this webpage)
+* [Built With] (#built-with)
 * [Credits](#credits)
 <br>
 
