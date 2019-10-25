@@ -5,7 +5,7 @@
 * [Credits](#credits)
 <br>
 
-# The purpouse of this webpage:
+# The purpouse of this webpage
 to create an static mockup clone of the mint sign up webpage. 
 <br>
 
