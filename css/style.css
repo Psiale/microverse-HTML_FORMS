@@ -1,3 +1,4 @@
+* {box-sizing: border-box; }
 header {
   display: flex;
   flex-direction: row-reverse;
@@ -34,7 +35,44 @@ a {
 }
 
 .form {
+  display: block;
   margin: 0 auto;
   width: 400px;
   border: 3px inset grey;
+}
+
+.form-title{
+position: relative;
+left: 30%;
+width: 200px;
+}
+
+.title{
+position: relative;
+left: 60%;
+text-align: center;
+}
+
+input {
+
+width: 320px;
+height: 34px;
+border: 1px solid #c1c5c8; 
+border-radius: 3px;
+line-height: 1.3em;
+}
+input, label {display:block;}
+
+fieldset {
+margin-top: 10px;
+padding: 20px;
+border: 0;}
+
+#submit-btn {
+width: 320px;
+height: 34px;
+background: linear-gradient(to bottom,#167CCC 0,#0077C5 100%);
+border-radius: 4px;
+border: 1px;
+color: white;
 }
