@@ -2,6 +2,7 @@ body {
   background: #eceef1;
   box-sizing: border-box;
 }
+
 header {
   display: flex;
   flex-direction: row-reverse;
@@ -58,15 +59,17 @@ a {
 
 fieldset,
 form,
-input-form .form {
+.input-form .form {
   background-color: white;
 }
+
 .form-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .title {
   color: #4c4c4c;
   line-height: 1.1;
@@ -80,6 +83,7 @@ input {
   border-radius: 3px;
   line-height: 1.3em;
 }
+
 input,
 label {
   display: block;
@@ -145,12 +149,16 @@ footer {
   display: inline-block;
   margin-right: 4px;
   position: relative;
-  background:   url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-favicon.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-favicon.svg)
     no-repeat;
 }
+
 .mint-verb {
   left: 142px;
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-text.svg)
+  background:
+
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-text.svg)
     no-repeat;
   width: 37px;
   height: 20px;
@@ -159,7 +167,8 @@ footer {
 .quickbooks-logo {
   width: 23px;
   height: 23px;
-  background:url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quickbooks-favicon@2x.svg)
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quickbooks-favicon@2x.svg)
     no-repeat;
 }
 
