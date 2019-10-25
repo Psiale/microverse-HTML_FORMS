@@ -2,7 +2,7 @@
 
 * [The purpouse of this webpage](#the-purpouse-of-this webpage)
 * [Built With](#built-with)
-* [Credits](#contact)
+* [Credits](#credits)
 <br>
 
 # The purpouse of this webpage:
