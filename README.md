@@ -2,9 +2,9 @@
 
 ## Content
 
-* [The purpouse of this webpage](# the-purpouse-of-this webpage)
-* [Built With](# built-with)
-* [Credits](# credits)
+* [The purpouse of this webpage](#the-purpouse-of-this-webpage)
+* [Built With](#built-with)
+* [Credits](#credits)
 <br>
 
 ## The purpouse of this webpage
