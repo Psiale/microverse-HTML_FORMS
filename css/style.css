@@ -1,5 +1,5 @@
 body {
-  background: #ECEEF1;
+  background: #eceef1;
   box-sizing: border-box;
 }
 header {
@@ -38,15 +38,28 @@ a {
 }
 
 .form {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   width: 400px;
   z-index: 1;
-  
   border: 1px solid;
 }
-fieldset, form, input-form .form {
-  background-color: white;  
+
+.form > h1 {
+  text-align: center;
+}
+
+.one-account {
+  text-align: center;
+}
+
+fieldset,
+form,
+input-form .form {
+  background-color: white;
 }
 .form-title {
   display: flex;
@@ -55,9 +68,9 @@ fieldset, form, input-form .form {
   align-items: center;
 }
 .title {
-  color: #4C4C4C;
-    line-height: 1.1;
-    font-size: 24px;
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
 }
 
 input {
@@ -183,7 +196,7 @@ footer {
 }
 .lock-img {
   height: 1em;
-    width: .8em;
+  width: 0.8em;
 }
 #advice {
   font-style: italic;
@@ -191,17 +204,22 @@ footer {
   text-align: center;
   font-size: 12px;
 }
-#policy{
+#policy {
   font-size: 10px;
 }
-.title, #policy {
-  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+.title,
+#policy {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-weight: 400;
 }
-#input-footer{
-  background-color: #ECEEF1;
+#input-footer {
+  background-color: #eceef1;
 }
 .nav-information {
   color: black;
   text-decoration: none;
+}
+.nav-information:hover {
+  color: #0077C5;
 }
