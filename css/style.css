@@ -1,4 +1,5 @@
-* {
+body {
+  background: #ECEEF1;
   box-sizing: border-box;
 }
 header {
@@ -40,14 +41,23 @@ a {
   display: block;
   margin: 0 auto;
   width: 400px;
-  border: 3px inset grey;
+  z-index: 1;
+  
+  border: 1px solid;
 }
-
+fieldset, form, input-form .form {
+  background-color: white;  
+}
 .form-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.title {
+  color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
 }
 
 input {
@@ -106,6 +116,7 @@ footer {
   width: 60%;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 
 .logo-pic {
@@ -169,4 +180,28 @@ footer {
 
 .logoes > div {
   margin-left: 1rem;
+}
+.lock-img {
+  height: 1em;
+    width: .8em;
+}
+#advice {
+  font-style: italic;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+}
+#policy{
+  font-size: 10px;
+}
+.title, #policy {
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+#input-footer{
+  background-color: #ECEEF1;
+}
+.nav-information {
+  color: black;
+  text-decoration: none;
 }
