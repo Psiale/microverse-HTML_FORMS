@@ -1,6 +1,6 @@
 # microverse-HTML_FORMS
 
-* [The purpouse of this webpage](#The-purpouse-of-this webpage)
+* [The purpouse of this webpage](#the-purpouse-of-this webpage)
 * [Built With](#built-with)
 * [Credits](#contact)
 <br>
