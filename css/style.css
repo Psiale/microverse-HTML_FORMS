@@ -1,0 +1,249 @@
+body {
+  background: #eceef1;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+a {
+  color: #0077c5;
+}
+
+.sign-in {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.sign-in > div {
+  padding: 0.5rem;
+}
+
+.sign-in-button {
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  z-index: 1;
+  border: 1px solid;
+}
+
+.form > h1 {
+  text-align: center;
+}
+
+.one-account {
+  text-align: center;
+}
+
+fieldset,
+form,
+.input-form .form {
+  background-color: white;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+}
+
+input {
+  width: 320px;
+  height: 34px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+}
+
+input,
+label {
+  display: block;
+}
+
+fieldset {
+  margin-top: 10px;
+  padding: 20px;
+  border: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit-btn {
+  width: 320px;
+  height: 34px;
+  background: linear-gradient(to bottom, #167ccc 0, #0077c5 100%);
+  border-radius: 4px;
+  border: 1px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.links > li {
+  padding: 2rem;
+}
+
+.rights {
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-pic {
+  background-position: 0 0;
+  width: 118px;
+  height: 35px;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/ecosystem_logos_new.png);
+}
+
+.mint-logo {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-favicon.svg)
+    no-repeat;
+}
+
+.mint-verb {
+  left: 142px;
+  background:
+
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-text.svg)
+    no-repeat;
+  width: 37px;
+  height: 20px;
+}
+
+.quickbooks-logo {
+  width: 23px;
+  height: 23px;
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quickbooks-favicon@2x.svg)
+    no-repeat;
+}
+
+.quickbooks-verb {
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quick-books-text.svg)
+    no-repeat;
+  width: 98px;
+  height: 22px;
+}
+
+.turbotax-logo {
+  width: 23px;
+  height: 23px;
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/tt-favicon@2x.svg)
+    no-repeat;
+}
+
+.turbotax-verb {
+  background:
+    url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/turbo-tax-text.svg)
+    no-repeat;
+  width: 74px;
+  height: 22px;
+}
+
+.logoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.logoes > div {
+  margin-left: 1rem;
+}
+
+.lock-img {
+  height: 1em;
+  width: 0.8em;
+}
+
+#advice {
+  font-style: italic;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#policy {
+  font-size: 10px;
+}
+
+.title,
+#policy {
+  font-family:
+    AvenirNext,
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-weight: 400;
+}
+
+#input-footer {
+  background-color: #eceef1;
+}
+
+.nav-information {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-information:hover {
+  color: #0077c5;
+}
